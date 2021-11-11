@@ -1,0 +1,33 @@
+.viewpage_main {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.table_area {
+  display: flex;
+  height: max-content;
+  width: max-content;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  flex-direction: column;
+}
+
+.table_area:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.status_pass {
+  font-weight: bold;
+  color: rgb(32, 189, 97);
+}
+
+.status_fail {
+  font-weight: bold;
+  color: tomato;
+}
